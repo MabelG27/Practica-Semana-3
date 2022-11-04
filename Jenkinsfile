@@ -16,7 +16,7 @@ pipeline {
   }
     stage('Start container') {
       steps {
-        sh 'docker up start'
+        sh 'docker -start up'
       }
     } 
 
